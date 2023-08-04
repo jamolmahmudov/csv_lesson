@@ -13,5 +13,5 @@ def get_country_column(file_name):
         list.append(i[3])
     return list
 file_name=open('data.csv')
-r=reader(file_name,delimiter=',')
-print(get_country_column(file_name=r))
+read=reader(file_name,delimiter=',')
+print(get_country_column(file_name=read))
